@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--create the head on form-->
+<body>
+    <section>
+        <h1>UserName and Password</h1>
+            <form action="/tacos">
+             <!--this is where i'm going to put my user name -->
+                <p>
+                    <label for="username">Enter a Name</label>
+                    <input Id="username" type="text" placeholder="username" name="username">
+
+
+
+
+                </p>
+                <!--where to put the password -->
+                <p>
+                    <label for="password">Enter password</label>
+                    <input Id="password" type="text" placeholder="password" name="password">
+
+
+
+
+                </p>
+                <!--togo button for the client to send our request to the servier -->
+
+                <button> submit Button </button>
+
+
+
+
+
+            </form>
+
+
+
+    </section>
+
+
+
+    <section>
+        <h1>Query strings</h1>
+        <!--creating  reddit's search engine link to search  on reddit -->
+        <form action="https://www.reddit.com/search/">
+
+            <input type="text" name="q">
+            <button>Submit Reddit</button>
+        </form>
+    <!-- creating youtube's search engine link to search  on youtube -->
+        <form action="https://www.youtube.com/results?search_query=">
+
+            <input type="text" name="q">
+            <button>Search YouTube</button>
+
+        </form>
+      <!--creating google's seach engine link to seach on google-->
+        <form action="https://www.google.com/search">
+
+            <input type="text" name="q">
+            <button>Google Search</button>
+
+        </form>
+
+    </section>
+    <hr>
+
+
+<!---->
+    <section>
+        <h1>Radio Buttons and checkbox</h1>
+            <form action="birds">
+               <lebel for="agree">I agree to everything</lebel>
+               <input type="checkbox" name="agree_tos" id="agree">
+
+
+               <p>
+                    <label for="s">Small</label>
+                    <input type="radio" name="size" id="s"value="Small">
+
+                    <label for="s">Medium</label>
+                    <input type="radio" name="size" id="s"value="Medium">
+
+                    <label for="s">Large</label>
+                    <input type="radio" name="size" id="s"value="Large">
+
+
+               </p>
+
+
+
+            </form>
+    </section>
+</body>
+</html>
