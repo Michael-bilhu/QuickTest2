@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MonteTables</title>
+    <title>pokman Tables</title>
 </head>
 
 
@@ -23,23 +23,34 @@
         <tbody>
             <tr>
                 <td>Pikachu</td>
+                <td>Electric</td>
                 <td>DAash</td>
                 <td>Grass</td>
                 <td>Raichu</td>
 
             </tr>
             <tr>
-                <td>MonteInfo1</td>
-                <td>MonteInfo2</td>
-                <td>MonteInfo3</td>
+                <td>Bulbasour</td>
+                <td>Grass</td>
+                <td>Palnt bomb</td>
+                <td>metal</td>
+                <td>ivysaur</td>
 
             </tr>
             <tr>
-                <td>MonteInfo1</td>
-                <td>MonteInfo2</td>
-                <td>MonteInfo3</td>
+                <td>Squirtle</td>
+                <td>Water</td>
+                <td>Water cannon</td>
+                <td>Ice</td>
+                <td>Blatoise<td>
+              </tr>
+        <tr>
+        <td>Charmander</td>
+        <td>Fire</td>
+        <td>Fireball</td>
+        <td>water</td>
+        <td>charmeleon</td>
 
-            </tr>
         </tbody>
     </table>
 
