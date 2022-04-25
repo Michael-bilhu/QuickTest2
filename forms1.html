@@ -11,40 +11,27 @@
     <section>
         <h1>UserName and Password</h1>
             <form action="/tacos">
-             <!--this is where i'm going to put my user name -->
+             <!--this is where I created a label and textbox to put the user name -->
                 <p>
                     <label for="username">Enter a Name</label>
                     <input Id="username" type="text" placeholder="username" name="username">
 
-
-
-
                 </p>
-                <!--where to put the password -->
+                <!--created a label and textbox to put the password -->
                 <p>
                     <label for="password">Enter password</label>
                     <input Id="password" type="text" placeholder="password" name="password">
+                 </p>
+                <!--I created submit button for the client to send our request to the servier -->
 
+            <button> submit Button </button>
 
-
-
-                </p>
-                <!--togo button for the client to send our request to the servier -->
-
-                <button> submit Button </button>
-
-
-
-
-
-            </form>
-
-
+             </form>
 
     </section>
 
-
-
+    <hr>
+      <!--Here I created a series of Query strings in a new section-->
     <section>
         <h1>Query strings</h1>
         <!--creating  reddit's search engine link to search  on reddit -->
@@ -72,14 +59,15 @@
     <hr>
 
 
-<!--creating the label and the input type-->
+<!--I'm creating the label and the input type-->
     <section>
         <h1>Radio Buttons and checkbox</h1>
             <form action="birds">
+        <!--This is the checkbox with a binding label-->
                <lebel for="agree">I agree to everything</lebel>
                <input type="checkbox" name="agree_tos" id="agree">
 
-<!--creating the radio button -->
+<!--creating the radio button and this going to have 3 checkboxes and 3 different sizes -->
                <p>
                     <label for="s">Small</label>
                     <input type="radio" name="size" id="s"value="Small">
@@ -92,21 +80,69 @@
 
 
                </p>
-<!--first creat the lebel -->
+     <!----Here I created the lebel combo box for color for 3 different Fav't colors-->
                <p>
                   <lebel for="Favcolor"> What is your favorite color</lebel>
 
                   <select name="favorite" id="favcolor">
 
-                   <option Value="Red"> Red </option>
-                   <option Value="green"> Green </option>
-                   <option Value="Blue"> Blue </option>
+                         <option Value="Red"> Red </option>
+
+                         <option Value="green"> Green </option>
+
+                         <option Value="Blue"> Blue </option>
+
                   </select>
                </p>
 
+               <!--creating a scrollbar label range with the Max and the min attributes  -->
+                <p>
+
+                     <label for="scroll">Michael's Scrollbar</label>
+                     <input type="range" id="scroll" min="5" max="10" name="scrollbar">
+
+                </p>
+
+
+                <!--creating the text area label box and actual form control and bind them together -->
+                      <p>
+                          <label for="requests">Type into this box</label>
+                          <textarea id="reques" name="reqs" rows="15" cols="15" placeholder="Type Something Here!"></textarea>"
+                      </p>
+                <!--here I created the submit button-->
+                <button>Submit Button</button>
 
 
             </form>
+
+<!--creating a new section with horzontal line-->            
     </section>
+    <hr>
+<!--Here I created the title and adjust the action for this specific section-->
+        <section>
+            <h2>Form Validations</h2>
+            <!--the slash before banana indicate that it's url-->
+            <form action="/bananas"> 
+                <!-- Here I created a label element  -->
+                <label for="required1"></label>
+                <input type="text" name="funny" id="required1" required>
+    
+                <!--here I created a label with a min of 5 chracter and max of 10 character -->
+                <label for="length"></label>
+                <input type="text" name="lenghthy" id="length" minlength="5" maxlength="10">
+    
+                <!--here I created an email box with an email attribute-->
+                <p>
+    
+                    <input type="email" required>
+    
+                </p>
+
+                <!--here I created a submit button-->
+                <button type="submit">Submit</button>
+
+
+        </section>
+
 </body>
 </html>
