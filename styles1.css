@@ -5,6 +5,11 @@ h2{
     color:rgb(186, 46, 165);
 
 }
+p{
+    color:rgb(55, 234, 15);
+    background-color: rgb(202, 149, 52);
+
+}
 
 button {
 
@@ -13,8 +18,3 @@ button {
 
 }
 
-p{
-    color:rgb(55, 234, 15);
-    background-color: rgb(202, 149, 52);
-
-}
