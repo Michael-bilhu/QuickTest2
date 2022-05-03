@@ -1,0 +1,39 @@
+/*putting universal selector*/
+/* *   {
+    color:pink;
+    background-color:green;
+} */
+
+/*  */
+body {
+
+    background-color: beige;
+}
+/*  */
+button {
+    font-size:30px;
+}
+
+/*  */
+h1, h2 {
+
+    color:crimson; 
+}
+
+/*  */
+#signup {
+
+    background-color: pink;
+    color:blue; 
+}
+/*  */
+.sec{
+
+    color:green;
+}
+
+/*  */
+.post a {
+
+    color:hotpink; 
+}

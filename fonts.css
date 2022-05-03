@@ -1,3 +1,4 @@
+
 h1{
     color:darkblue;
     text-align: center;
@@ -5,4 +6,16 @@ h1{
     font-size:125px;
     font-family: 'Courier New', Courier, monospace;
 
+}
+
+h2{
+    color:darkblue;
+    text-align: center;
+    font-weight: 850;
+    text-decoration: pink underline;
+
+}
+
+h3{
+    text-decoration: pink underline;
 }
