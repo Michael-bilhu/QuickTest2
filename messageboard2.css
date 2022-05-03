@@ -1,38 +1,38 @@
-/*putting universal selector*/
+/*putting universal selector to select everything on the page to become pink and green*/
 /* *   {
     color:pink;
     background-color:green;
 } */
 
-/*  */
+/* edit the body tag with the background color beige  */
 body {
 
     background-color: beige;
 }
-/*  */
+/* edit all the button font size to 30px. Everything with the button attribute will change its size   */
 button {
     font-size:30px;
 }
 
-/*  */
+/*  editing both h1 and h2 with color crimson( with multiple selectors)  */
 h1, h2 {
 
     color:crimson; 
 }
 
-/*  */
+/*linking by id #. call the button based on its id #, in this case "signup", then chaning its color to pink and blue  */
 #signup {
 
     background-color: pink;
     color:blue; 
 }
-/*  */
+/*changing every "sec" class to green color  */
 .sec{
 
     color:green;
 }
 
-/*  */
+/*changing every post class to hotpink color and all the anchor tag also will be manuplated */
 .post a {
 
     color:hotpink; 
