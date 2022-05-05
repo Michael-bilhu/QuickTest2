@@ -1,0 +1,34 @@
+/*here a class attribute with the value of "crimson", changes the text color to Crimson*/
+.crimson{
+    color:crimson;
+}
+/*here a class attribute with the value of "green", changes the text color to green*/
+.green{
+    color:green;
+}
+/*here a class attribute with the value of "yellow", changes the text color to yellow*/
+.yellow{
+    color:yellow;
+}
+/*here a class attribute with the value of "red", changes the text color to red*/
+.red{
+
+    color:red;
+}
+/*here a class attribute with the value of "blue", changes the text color to orange*/
+.blue{
+
+    color:orange;
+}
+/* here I made the button Id called "signup" to changes its background and the text color to green and white respectivly  */
+#signup{
+
+    background-color: green;
+    color:white; 
+}
+/* here I made the button Id called "signdown" to changes its background and the text color to red and white respectivly  */
+#signdown{
+
+    background-color:red;
+     color: white;
+}

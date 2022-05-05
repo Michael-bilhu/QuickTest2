@@ -4,36 +4,75 @@
     background-color:green;
 } */
 
-/* edit the body tag with the background color beige  */
+/*This code  edits the body tag with the background color beige  */
 body {
 
     background-color: beige;
 }
-/* edit all the button font size to 30px. Everything with the button attribute will change its size   */
+/* This code edits all the button font size to 30px. Everything with the button attribute will change its size*/
 button {
     font-size:30px;
 }
 
-/*  editing both h1 and h2 with color crimson( with multiple selectors)  */
+/*  This code edits both h1 and h2 with color crimson( with multiple selectors)  */
 h1, h2 {
 
     color:crimson; 
 }
 
-/*linking by id #. call the button based on its id #, in this case "signup", then chaning its color to pink and blue  */
+/*linking by id attribute, this  code changes the button "Sign up" to pink and blue color */
 #signup {
 
     background-color: pink;
     color:blue; 
 }
-/*changing every "sec" class to green color  */
+/*here I added a class element from the html file and change its color to green  */
 .sec{
 
     color:green;
 }
 
-/*changing every post class to hotpink color and all the anchor tag also will be manuplated */
+/*This code changes every post class to hotpink color and all the anchor tag also will be manuplated */
 .post a {
 
     color:hotpink; 
 }
+/*This code adds a dedscendant selector purple */
+footer > a{
+    color:purple;
+}
+/*atribute selector, this made the password when it is written to be purple*/
+input[ type= "password"]{
+
+     color:purple;
+}
+/*Here I made what's written in the search box red*/
+input[type="text"]{
+     
+    color:red;
+}
+/*This code changes the anchor link of goggle  to darkorange color*/
+a[href*="google"]{
+    color:darkorange;
+}
+/*this codes adds pseudo-class of hover; a special state  */
+button:hover{
+    background-color:red;
+    color:aquamarine;
+}
+
+/*Nested Psuedo-elements, shows activation by green color when the mouse rolls over the +vote */
+.post button:active{
+    background-color:green;
+}
+/*pseudo-element, this makes the first letter font size 50px */
+h2::first-letter{
+
+    font-size:50px;
+}
+
+/*pseudo element, change the fisrt line of the paragraph to color red */
+p::first-line{
+
+   color:red;
+} 
