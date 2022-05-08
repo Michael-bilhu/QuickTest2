@@ -1,0 +1,10 @@
+/*here I changed the hyper-link color and the font-size to 30px in the header */
+header >a{
+    color:orange;
+    font-size: 30px;
+} 
+/*  */
+#schools a{
+
+    color:crimson
+}
