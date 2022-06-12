@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<!--acces the dom element of the child node with ID "test"-->
+<body>
+    <h1 id="test">You're just on Tv like entertainers, you're not tecnical</h1>
+
+    
+    <script>
+        //changing the inner Html header based on the ID
+        document.getElementById('test').innerHTML ="Hello world";
+        //Accessing the Dom by creating a variable called let name to prompt something to the screen
+        let name= prompt("what is your name?")
+        //can write to the actual screen with java script accesing the Dom
+        document.write(name); //<-----argument parameter-->
+        // pass the object into argument paramenter
+        console.log(name);
+        // arert function to pass the object 
+        alert(name);
+    </script>
+</body>
+</html>
