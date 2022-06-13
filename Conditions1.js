@@ -17,7 +17,7 @@ if (randomNumber >= 0.5){
 // Making a const(will never change) and using the else-if statement to figure out the day of the week
 const dayOfWeek = 'saturday';
 
-
+// call variable 
 if (dayOfWeek==='Monday');
 
    console.log("Yay it's Monday!");
@@ -31,8 +31,10 @@ if (dayOfWeek==='Monday');
    }
 
  // Using const (never changes) and using the prompt function to output a WINDOW
+ // create variable for age and run prompt function
    const age = prompt("Enter An Age");
 // using if and else if statements to figure out how old you are
+// run if condition
    if (age < 5) {
    
        console.log("Hey, you're a baby!");
@@ -66,12 +68,16 @@ if (dayOfWeek==='Monday');
                 break;
             case 'Papayas':
                 console.log ("Papayas are $0.59 a pound");
+                // breaks out of the switch block
                 break;
+
+                // if all of above fails it runs this 
             default:
                 console.log("Last Resort if All conditions Fail")
 
    }
-
+  // if condition with nested condition
+  // create password variable 
    const password = Prompt("Enter in a new password");
   // if the password is less than 6 characters it is too short
    if (password.length >= 6){
@@ -95,7 +101,7 @@ if (dayOfWeek==='Monday');
      console.log("RE");
      console.log("ME");
    }
-
+ // call function 
    singSong()
    singSong()
    singSong()
@@ -105,8 +111,11 @@ if (dayOfWeek==='Monday');
              console,log(`hey there, ${firstName}`)
             
         function greet1(firstName,lastName) {
+            // pass . create template literal . embedded expression. 
             console.log(`hey there, ${firstName} ${lastName}`) 
 
           }
 
     greet ('Boomer');
+
+    
