@@ -52,18 +52,20 @@ var items = document.getElementsByClassName('list-group-item')
 
 console.log(items);
 //changing the style by manipulating the Index number and make change to it
+// reference particular through index
+// item 1
 items[1].style.backgroundcolor='pink'
 items[1].style.fontWeight='bold'
 items[1].textContent='Man-united'
 items[1].style.color='green'
 
-
+// item 0
 items[0].style.backgroundcolor='red'
 items[0].style.fontWeight='bold'
 items[0].textContent='liverpool'
 items[0].style.color='red'
 
-
+// item 2
 items[2].style.backgroundcolor='pink'
 items[2].style.fontWeight='bold'
 items[2].textContent='Arsenal'
@@ -108,17 +110,21 @@ for(var i=0; i< items.length; i++){
 //CREATING A VARIABLE OBJ to put it by index list
 
 var li= document.getElementsByTagName('li');
-
+// pass into console.log
 console.log(li);
+// call an index
 console.log(li[1]);
 
+// call variable and manipulate particular elements
 li[1].textContent="Hello 2 now";
 li[1].style.fontWeight='bold';
 li[1].style.backgroundcolor='green';
 li[1].style.color ='white';
 
+// created another for loop that does through the array
 for(var i=0; i < li.length; i++){
-     
+     // pass in header
+     // call variable and manipulate element
     li[i].style.backgroundcolor='lightgrey';
     li[i].textcontent="I changed the Items from the Dom";
     li[i].style.color='White';
@@ -127,39 +133,43 @@ for(var i=0; i < li.length; i++){
 /////////////////////////////////////////////////////////////////////////////////
 ///////////////////////Query Selector
 
-//creating 
+//creating object
 
 var header = document.querySelector('#main-header');
+// call header and manipulate
 header.style.boaderBottom='solid 4px hotpink';
-
+// change value of text box
 var input = document.querySelector('input');
 input.value ="I just changed the text value in the input box.";
 
-
+//submit variable
 var submit= document.querySelector('input[type="submit"]');
 submit.value= "HELLO BUTTON";
-
+// calling last item
 var lastItem = document.querySelector('.list-group-item:last-child');
+//change last item
 lastItem.style.color = 'blue';
-
+// created another  variable. called list group class
+// this returns specific index
 var OtherItem = document.querySelector('.list-group-item:ntn-child(2)');
 OtherItem.style.color= 'coral'//
 
 ////////////////////////////////////////////////////////////////////////////////
-
+// calling the class "title"
 var titles = document.querySelectorAll('.title');
+// pass through console.log. there are only 2 elements
 console.log(titles);
 
-//
+// change variable. called title and changed the title
 titles[0].textContent='Hello I just changed the Title';
 
 
-//create odd and even 
+//create two variable. one for odd and one for  even (n-th child)
 
 var odd= document.querySelector('li:nth-child(odd)');
 var even= document.querySelector('li:nth-child(even)');
 
-//
+// for loop that iterates through odd
 for(var i=0; i< odd.length; i++) {
 
     odd[i].style.backgroundcolor='grey';
